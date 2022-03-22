@@ -168,13 +168,6 @@ ul #grid {
 }
 /* End of Nav/Grid element */
 
-.table_homepage {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    /* grid-template-columns: ;
-    grid-template-rows: ;
-     */
-}
+
 /* Need to add padding to paragraphs instead of html line breaks */
 /* Need to add a href tags to paragraph text */
