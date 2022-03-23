@@ -144,7 +144,7 @@ nav li {
     margin: 0px;
     border:1px solid black;
 	padding:10px;
-    background-color: #4285F4;
+    background-color: #f442dc;
     text-align: center;
 }
 ul #grid {
@@ -225,4 +225,16 @@ body {
 }
 li a {
     color:white;
+}
+nav a {
+    color:black;
+}
+h1 {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a {
+    color: white;
 }
