@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="images/favicon.ico">
 	<link rel="stylesheet" href="css/html5reset.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link id="style_css" rel="stylesheet" href="css/style.css">
 	<title>Watch Components</title>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-2YSYP98R7K"></script>
@@ -24,6 +24,14 @@
 
 <body>
 	<a class = "skip" href="#main">Skip to Main Content</a>
+	<button onclick="toggle_dark()">Dark Mode</button>
+	<script>
+		function toggle_dark() { document.getElementById("style_css").href= "css/style_dark.css"}
+	</script>
+	<button onclick="toggle_light()">Light Mode</button>
+	<script>
+		function toggle_light() { document.getElementById("style_css").href= "css/style.css"}
+	</script>
 	<header>
 		<nav>
 			<ul id="grid">
